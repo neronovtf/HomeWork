@@ -1,17 +1,5 @@
-# HomeWork
+## Задача 3. Вывод структуры
 
-1. m = module
-2. l = lesson
-3. t = task
+https://github.com/netology-code/cppm-homeworks/tree/main/02/03
 
-name branch: m2-l2-t1
-
-cmd:
-    g++ task.cpp -o task.exe & task.exe
-
-p.s.
-
-    m2 = "Базовое программирование на C++"
-
-    l1 = "Структуры и перечисления"
-    l2 = "Классы и объекты"
+p.s. Visual Studio 2022
