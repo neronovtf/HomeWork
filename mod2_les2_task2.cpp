@@ -33,12 +33,13 @@ int main(){
     std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: ";
     std::cin >> answer;
 
+    Counter count;
+
     if(answer.length() == 2){
         std::cout << "Введите начальное значение счётчика: ";
         std::cin >> user_number;
+        count = Counter(user_number);
     }
-
-    Counter count(user_number);
 
     char symbol;
     bool flag = true;
