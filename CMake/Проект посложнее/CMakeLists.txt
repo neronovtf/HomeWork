@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.22.0)
+project(my_second_cmake_project)
+add_executable(my_second_cmake_program source.cpp triangleIsosceles.cpp triangleIsosceles.h triangleRightAngled.cpp triangleRightAngled.h myRectangle.cpp myRectangle.h parallelogram.cpp parallelogram.h quadrilateral.cpp quadrilateral.h rhomb.cpp rhomb.h shape.cpp shape.h square.cpp square.h triangle.cpp triangle.h triangleEquilateral.cpp triangleEquilateral.h)
