@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(proj_exe)
+add_executable(proj_exe source.cpp)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+add_library(proj_dll SHARED triangleIsosceles.cpp triangleIsosceles.h triangleRightAngled.cpp triangleRightAngled.h myRectangle.cpp myRectangle.h parallelogram.cpp parallelogram.h quadrilateral.cpp quadrilateral.h rhomb.cpp rhomb.h shape.cpp shape.h square.cpp square.h triangle.cpp triangle.h triangleEquilateral.cpp triangleEquilateral.h)
+target_link_libraries(proj_exe proj_dll)

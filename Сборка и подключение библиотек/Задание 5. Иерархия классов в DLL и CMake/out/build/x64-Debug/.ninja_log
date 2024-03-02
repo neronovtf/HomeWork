@@ -1,0 +1,20 @@
+# ninja log v5
+3	645	7311092635094769	CMakeFiles/proj_dll.dir/triangleIsosceles.cpp.obj	a8577e7153af0f5a
+3	676	7310699530481316	CMakeFiles/my_first_cmake_program.dir/source.cpp.obj	7ad532c1b0a78133
+678	1789	7310699540702466	my_first_cmake_program.exe	b523f14e680fe6d8
+3	294	7310702693743954	CMakeFiles/proj_dll.dir/test.cpp.obj	216234ee566af58d
+3	611	7311092136578338	CMakeFiles/proj_exe.dir/source.cpp.obj	24a566dc8e010c64
+694	1726	7311092644323818	proj_dll.dll	5467c26855ed9f08
+1726	2365	7311092650767584	proj_exe.exe	c0c8fc9a7b848b7a
+694	1726	7311092644323818	proj_dll.lib	5467c26855ed9f08
+102	464	7311091916859522	CMakeFiles/proj_dll.dir/square.cpp.obj	678866bed6c33225
+107	655	7311092635174841	CMakeFiles/proj_dll.dir/myRectangle.cpp.obj	fd93ba5bd30e78c5
+58	684	7311092635355009	CMakeFiles/proj_dll.dir/triangleRightAngled.cpp.obj	85db6e53a3d73547
+208	636	7311092635084766	CMakeFiles/proj_dll.dir/rhomb.cpp.obj	72c5bdd88ef445a8
+158	665	7311092635174841	CMakeFiles/proj_dll.dir/parallelogram.cpp.obj	8b1ed5fca0d204b3
+152	508	7311091917299923	CMakeFiles/proj_dll.dir/quadrilateral.cpp.obj	a7c74ebc608f2f09
+309	674	7311092635294946	CMakeFiles/proj_dll.dir/triangleEquilateral.cpp.obj	d5ced065defa3639
+258	693	7311092635565192	CMakeFiles/proj_dll.dir/triangle.cpp.obj	e425574e1b993bd3
+52	492	7311091917129770	CMakeFiles/proj_dll.dir/shape.cpp.obj	c5f91b4272628c71
+3	1264	7311076255315781	CMakeFiles/proj_dll.dir/source1.cpp.obj	949d433163537856
+2	630	7311081942427679	CMakeFiles/proj_exe.dir/source1.cpp.obj	61245c18921fa2f5
