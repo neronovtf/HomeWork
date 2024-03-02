@@ -53,9 +53,19 @@ public:
 		return *this;
 	}
 
+	Fraction operator	++	(int) {
+		Fraction temp = *this;
+		(*this).numerator_ = numerator_ + denominator_;
+		return temp;
+	}
+
+	Fraction& operator	--	() {
+		numerator_ = numerator_ - denominator_;
+		return *this;
+	}
+
 	Fraction operator	--	(int) {
 		Fraction temp = *this;
-		// по этому моменту есть вопросы. Написал их в комментарии к домашнему заданию =)
 		(*this).numerator_ =  numerator_ - denominator_;
 		return temp;
 	}
