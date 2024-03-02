@@ -5,12 +5,10 @@ class Fraction{
 private:
 	int numerator_;
 	int denominator_;
-	int Abc() { return numerator_ * numerator_ + denominator_ * denominator_; }
-	int* Ac(Fraction other) {
-		int arr[2] = {0, 0};
+	int arr[2] = { 0, 0 };
+	void Ac(Fraction other) {
 		arr[0] = numerator_ * other.denominator_;
 		arr[1] = denominator_ * other.numerator_;
-		return arr;
 	}
 public:
 	Fraction(int numerator, int denominator){
@@ -19,25 +17,25 @@ public:
 	}
 
 	bool operator	==	(Fraction other) {
-		int* arr = Ac(other);
+		Ac(other);
 		return arr[0] == arr[1];
 	}
 	bool operator	!=	(Fraction other) { return !(*this == other); }
 
 	bool operator	<	(Fraction other) {
-		int* arr = Ac(other);
+		Ac(other);
 		return arr[0] < arr[1];
 	}
 	bool operator	>	(Fraction other) {
-		int* arr = Ac(other);
+		Ac(other);
 		return arr[0] > arr[1];
 	}
 	bool operator	<=	(Fraction other) {
-		int* arr = Ac(other);
+		Ac(other);
 		return !(arr[0] > arr[1]);
 	}
 	bool operator	>=	(Fraction other) {
-		int* arr = Ac(other);
+		Ac(other);
 		return !(arr[0] < arr[1]);
 	}
 };
