@@ -1,14 +1,14 @@
 #pragma once
 
-#ifdef MATHPOWERLIBRARYDYNAMIC_EXPORTS
-	#define MATHPOWERLIBRARY_API __declspec(dllexport)
+#ifdef MYLIBRARYDYNAMIC1_EXPORTS
+	#define LIB_API __declspec(dllexport)
 #else
-	#define MATHPOWERLIBRARY_API __declspec(dllimport)
+	#define LIB_API __declspec(dllimport)
 #endif
 
 #include <string>
 
 class Leaver {
 public:
-	MATHPOWERLIBRARY_API std::string leave(std::string name);
+	LIB_API std::string leave(std::string name);
 };
