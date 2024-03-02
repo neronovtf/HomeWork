@@ -1,8 +1,0 @@
-# ninja log v5
-3	660	7309541738543984	CMakeFiles/my_first_cmake_program.dir/source.cpp.obj	af691508cd629b2
-3	932	7310056604547327	CMakeFiles/MyDynamicLibrary.dir/Leaver.cpp.obj	fdf9e8ccb67f0c73
-933	2090	7310056604547327	MyDynamicLibrary.dll	7ced42164523b9c
-661	1747	7309541748438741	my_first_cmake_program.exe	b523f14e680fe6d8
-55	1142	7310056606539130	CMakeFiles/my_proj_exe.dir/source.cpp.obj	8b2a03da84515d69
-933	2090	7310056604547327	MyDynamicLibrary.lib	7ced42164523b9c
-2090	2788	7310056621457410	my_proj_exe.exe	5e5d04f238aa003
