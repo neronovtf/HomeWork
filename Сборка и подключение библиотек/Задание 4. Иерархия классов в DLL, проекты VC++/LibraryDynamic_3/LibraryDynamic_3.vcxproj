@@ -143,6 +143,7 @@
     <ClCompile Include="triangleRightAngled.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="determineApi.h" />
     <ClInclude Include="myRectangle.h" />
     <ClInclude Include="parallelogram.h" />
     <ClInclude Include="quadrilateral.h" />

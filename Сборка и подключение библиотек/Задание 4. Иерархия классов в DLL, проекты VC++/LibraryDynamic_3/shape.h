@@ -1,18 +1,13 @@
 #pragma once
 
 #include <iostream>
-
-#ifdef MY_EXE
-    #define FROJ_LIB __declspec(dllexport)
-#else
-    #define FROJ_LIB __declspec(dllimport)
-#endif
+#include "determineApi.h"
 
 class Shape {
 protected:
     int numberCorners;
     std::string name;
 public:
-    FROJ_LIB Shape();
-    FROJ_LIB virtual void print();
+    LIB_API Shape();
+    LIB_API virtual void print();
 };
